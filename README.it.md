@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/status-maintained-F2C94C?style=flat-square" alt="Mantenuto">
   <img src="https://img.shields.io/badge/category-SDR%20%26%20RADIO-22D3EE?style=flat-square" alt="SDR e radio">
   <img src="https://img.shields.io/badge/stack-Shell-8B949E?style=flat-square" alt="Shell">
-  <img src="https://img.shields.io/badge/licence-MIT-2EA043?style=flat-square" alt="MIT">
+  <img src="https://img.shields.io/badge/licence-GPL--3.0-2EA043?style=flat-square" alt="GPL-3.0">
 </p>
 
 > Installazione automatizzata di SDR++ con supporto hardware nativo RFNM e SoapySDR.
@@ -60,4 +60,4 @@ Verifica sempre gli script prima di eseguirli con privilegi elevati. Per le segn
 
 ## Licenza
 
-Distribuito con [licenza MIT](LICENSE).
+Distribuito con [licenza GNU GPL-3.0](LICENSE).
