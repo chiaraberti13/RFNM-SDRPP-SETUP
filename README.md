@@ -128,11 +128,11 @@ This setup uses the following official repositories:
 * **Compatibility:** requires devices supporting USB 3.2 or higher (USB4 / Thunderbolt 3/4)
 * **Note:** video output requires USB-C ports with **DP Alt Mode** support
 
-## Comunità e collaborazione
+## Community and collaboration
 
-* [Come contribuire](CONTRIBUTING.md)
-* [Codice di condotta](CODE_OF_CONDUCT.md)
-* [Segnalazioni di sicurezza](SECURITY.md)
-* [Accessibilità e limiti delle verifiche](ACCESSIBILITY.md)
-* [Segnalare un problema o proporre un miglioramento](https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/issues/new/choose)
-* [Licenza del progetto](LICENSE)
+* [Contributing](CONTRIBUTING.md)
+* [Code of conduct](CODE_OF_CONDUCT.md)
+* [Security reports](SECURITY.md)
+* [Accessibility and verification limits](ACCESSIBILITY.md)
+* [Report a problem or propose an improvement](https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/issues/new/choose)
+* [Project license](LICENSE)

@@ -1,36 +1,36 @@
-name: Barriera di accessibilità
-description: Segnala un ostacolo nell'uso del progetto o della documentazione.
+name: Accessibility barrier
+description: Report a barrier to using the project.
 body:
 - type: markdown
   attributes:
-    value: Segnalazione per RFNM-SDRPP-SETUP. Non inserire dati personali o segreti. Per vulnerabilità
-      consulta https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
+    value: Report for RFNM-SDRPP-SETUP. Do not include secrets or personal data. For vulnerabilities,
+      follow https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
 - type: textarea
-  id: activity
+  id: barrier
   attributes:
-    label: Attività e barriera
-    description: Cosa cercavi di fare e cosa te lo impedisce? Non includere dati sanitari.
+    label: Task and barrier
+    description: What were you trying to do and what prevented it? Do not include health information.
   validations:
     required: true
 - type: textarea
   id: steps
   attributes:
-    label: Passaggi e risultato atteso
-    description: Indica la sezione e i passi per riprodurre il problema.
+    label: Steps and expected result
+    description: Identify the section and reproduction steps.
   validations:
     required: true
 - type: textarea
   id: environment
   attributes:
-    label: Ambiente
-    description: Versione del progetto, sistema operativo, browser o terminale, zoom e tecnologia assistiva
-      se utilizzata.
+    label: Environment
+    description: Project version, operating system, browser or terminal, zoom and assistive technology
+      if used.
   validations:
     required: true
 - type: textarea
   id: workaround
   attributes:
-    label: Soluzione temporanea ed evidenze
-    description: Indica eventuali alternative e allega solo esempi anonimi.
+    label: Workaround and evidence
+    description: Describe alternatives and attach anonymized examples only.
   validations:
     required: false

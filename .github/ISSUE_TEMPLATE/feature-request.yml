@@ -1,35 +1,35 @@
-name: Proposta di miglioramento
-description: Descrivi un'esigenza, la soluzione e come verificarla.
+name: Feature request
+description: Propose a focused improvement.
 body:
 - type: markdown
   attributes:
-    value: Segnalazione per RFNM-SDRPP-SETUP. Non inserire dati personali o segreti. Per vulnerabilità
-      consulta https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
+    value: Report for RFNM-SDRPP-SETUP. Do not include secrets or personal data. For vulnerabilities,
+      follow https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
 - type: textarea
-  id: need
+  id: problem
   attributes:
-    label: Esigenza
-    description: Quale problema vuoi risolvere e per chi?
+    label: Problem or need
+    description: Describe the task and current limitation.
   validations:
     required: true
 - type: textarea
-  id: solution
+  id: proposal
   attributes:
-    label: Proposta
-    description: Descrivi il comportamento desiderato e la relazione con la roadmap, se presente.
-  validations:
-    required: true
-- type: textarea
-  id: acceptance
-  attributes:
-    label: Criteri di accettazione
-    description: Come potremo verificare il risultato?
+    label: Proposed solution
+    description: Describe the desired result.
   validations:
     required: true
 - type: textarea
   id: alternatives
   attributes:
-    label: Alternative e impatto
-    description: Considera compatibilità, accessibilità e sicurezza.
+    label: Alternatives
+    description: List alternatives or workarounds considered.
+  validations:
+    required: false
+- type: textarea
+  id: impact
+  attributes:
+    label: Impact and verification
+    description: Consider security, privacy, accessibility and a way to verify the result.
   validations:
     required: false

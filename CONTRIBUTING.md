@@ -1,71 +1,37 @@
 # Contributing to RFNM-SDRPP-SETUP
 
-<p align="center"><a href="#english">🇬🇧 English</a> · <a href="#italiano">🇮🇹 Italiano</a></p>
-
-## English
 This repository covers shell automation that installs/builds librfnm, soapy-rfnm and SDR++ with RFNM/SoapySDR support.
 
-### Workflow
+## Workflow
 1. Read `README.md`, `SECURITY.md` and the relevant manual/design notes.
 2. Use a dedicated branch and keep each pull request focused.
 3. Never commit secrets, device identifiers, private recordings, personal data or unauthorized captures.
 4. Use only hardware, systems and signals you are legally entitled and explicitly authorized to work with.
 5. Report vulnerabilities privately.
 
-### Setup
+## Setup
 ```bash
 git clone https://github.com/chiaraberti13/RFNM-SDRPP-SETUP.git
 cd RFNM-SDRPP-SETUP
 ```
 
-### Checks
+## Checks
 ```bash
 bash -n setup_rfnm_sdrpp.sh
 bash -n reset_rfnm_sdrpp.sh
 ```
 Changes that use sudo or remove files must be narrowly scoped, documented and reversible. Keep upstream URLs and build options explicit.
 
-### Engineering expectations
-Validate configuration and external input, fail safely, preserve uninstall/rollback paths, document system-level changes, avoid destructive defaults, and add tests or reproducible manual verification for behaviour changes. Update English documentation first and keep Italian documentation semantically aligned.
+## Engineering expectations
+Validate configuration and external input, fail safely, preserve uninstall/rollback paths, document system-level changes, avoid destructive defaults, and add tests or reproducible manual verification for behaviour changes. Write documentation in English and keep README.md and README.it.md semantically aligned.
 
-### Pull requests
+## Pull requests
 Describe what changed, why, supported platforms/hardware, tests performed, security/privacy impact and rollback notes. Participation follows `CODE_OF_CONDUCT.md`.
 
-## Italiano
-Questo repository riguarda shell automation that installs/builds librfnm, soapy-rfnm and SDR++ with RFNM/SoapySDR support.
+## Reporting and contribution checks
 
-### Flusso
-1. Leggi `README.md`, `SECURITY.md` e manuali/note di progetto pertinenti.
-2. Usa un branch dedicato e mantieni ogni pull request focalizzata.
-3. Non committare segreti, identificativi di dispositivi, registrazioni private, dati personali o acquisizioni non autorizzate.
-4. Usa solo hardware, sistemi e segnali per cui hai diritto legale e autorizzazione esplicita.
-5. Segnala privatamente le vulnerabilità.
+Use the [issue templates](https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/issues/new/choose) and check for duplicates first. Useful context: Linux distribution, shell, RFNM hardware, driver versions and installation stage.
 
-### Setup
-```bash
-git clone https://github.com/chiaraberti13/RFNM-SDRPP-SETUP.git
-cd RFNM-SDRPP-SETUP
-```
+Write community and technical documentation in English; maintain equivalent English and Italian READMEs. Preserve existing application translations. Fill in the pull request template with commands, results and checks not performed, including the reason. Use synthetic examples without secrets or personal data.
 
-### Controlli
-```bash
-bash -n setup_rfnm_sdrpp.sh
-bash -n reset_rfnm_sdrpp.sh
-```
-Changes that use sudo or remove files must be narrowly scoped, documented and reversible. Keep upstream URLs and build options explicit.
-
-### Aspettative tecniche
-Valida configurazione e input esterni, usa comportamenti fail-safe, conserva procedure di uninstall/rollback, documenta le modifiche di sistema, evita default distruttivi e aggiungi test o verifiche manuali riproducibili. Aggiorna prima la documentazione inglese e mantieni quella italiana equivalente.
-
-### Pull request
-Descrivi cosa cambia, perché, piattaforme/hardware supportati, test eseguiti, impatto sicurezza/privacy e rollback. Si applica `CODE_OF_CONDUCT.md`.
-
-## Segnalazioni e verifica dei contributi
-
-Installazione e ripristino di SDR++ con RFNM e SoapySDR su Linux.
-
-Usa i [modelli di segnalazione](https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/issues/new/choose) per bug, miglioramenti e barriere di accessibilità. Prima di aprire una nuova segnalazione verifica se ne esiste già una equivalente. Contesto utile: Distribuzione Linux, shell, hardware RFNM, driver e fase di installazione.
-
-Per le modifiche, compila il modello di pull request e indica verifiche eseguite, esito e verifiche non eseguite con il motivo. Mantieni le istruzioni specifiche di questo progetto e la parità delle lingue già disponibili. Non allegare dati di produzione, credenziali o dati personali; usa esempi sintetici.
-
-Consulta [il codice di condotta](CODE_OF_CONDUCT.md), [la policy di sicurezza](SECURITY.md) e [le indicazioni di accessibilità](ACCESSIBILITY.md). Le vulnerabilità seguono esclusivamente il percorso descritto nella policy di sicurezza.
+See [the code of conduct](CODE_OF_CONDUCT.md), [security policy](SECURITY.md) and [accessibility statement](ACCESSIBILITY.md). Report vulnerabilities only through the security policy process.

@@ -1,25 +1,25 @@
-# Proposta di modifica
+# Change proposal
 
-## Problema e risultato
+## Problem and result
 
-<!-- Cosa cambia, perché e per quale attività dell'utente. -->
+<!-- What changes, why, and which user task benefits. -->
 
-## Riferimenti
+## References
 
-<!-- Issue, roadmap o documentazione pertinente. -->
+<!-- Relevant issue, roadmap or documentation. -->
 
-## Verifica comune
+## Common checks
 
-- [ ] Ho descritto il problema, la soluzione e il riferimento alla issue o alla roadmap, se pertinente.
-- [ ] Ho indicato comandi o passi delle verifiche, risultati e controlli non eseguiti con il motivo.
-- [ ] Ho valutato sicurezza, privacy, accessibilità e compatibilità, spiegando gli aspetti non applicabili.
-- [ ] Ho aggiornato la documentazione e le lingue interessate dalla modifica.
-- [ ] I dati di esempio sono sintetici e non includono credenziali o dati personali.
+- [ ] Described the problem, solution and relevant issue or roadmap item.
+- [ ] Listed verification commands or steps, outcomes and omitted checks with reasons.
+- [ ] Considered security, privacy, accessibility and compatibility; explained non-applicable aspects.
+- [ ] Updated English documentation and both READMEs where affected.
+- [ ] Used synthetic examples without credentials or personal data.
 
-### Evidenze e limiti
+### Evidence and limitations
 
-<!-- Riporta qui risultati concreti; non dichiarare superate verifiche non eseguite. -->
+<!-- Report actual outcomes; do not claim checks that were not performed. -->
 
-### Compatibilità e ripristino
+### Compatibility and rollback
 
-<!-- Indica eventuali migrazioni e come annullare la modifica, oppure perché non applicabile. -->
+<!-- Explain migrations and how to revert, or why not applicable. -->
