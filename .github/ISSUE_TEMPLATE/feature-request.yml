@@ -1,0 +1,35 @@
+name: Proposta di miglioramento
+description: Descrivi un'esigenza, la soluzione e come verificarla.
+body:
+- type: markdown
+  attributes:
+    value: Segnalazione per RFNM-SDRPP-SETUP. Non inserire dati personali o segreti. Per vulnerabilità
+      consulta https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
+- type: textarea
+  id: need
+  attributes:
+    label: Esigenza
+    description: Quale problema vuoi risolvere e per chi?
+  validations:
+    required: true
+- type: textarea
+  id: solution
+  attributes:
+    label: Proposta
+    description: Descrivi il comportamento desiderato e la relazione con la roadmap, se presente.
+  validations:
+    required: true
+- type: textarea
+  id: acceptance
+  attributes:
+    label: Criteri di accettazione
+    description: Come potremo verificare il risultato?
+  validations:
+    required: true
+- type: textarea
+  id: alternatives
+  attributes:
+    label: Alternative e impatto
+    description: Considera compatibilità, accessibilità e sicurezza.
+  validations:
+    required: false

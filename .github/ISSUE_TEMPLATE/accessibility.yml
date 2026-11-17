@@ -1,0 +1,36 @@
+name: Barriera di accessibilità
+description: Segnala un ostacolo nell'uso del progetto o della documentazione.
+body:
+- type: markdown
+  attributes:
+    value: Segnalazione per RFNM-SDRPP-SETUP. Non inserire dati personali o segreti. Per vulnerabilità
+      consulta https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
+- type: textarea
+  id: activity
+  attributes:
+    label: Attività e barriera
+    description: Cosa cercavi di fare e cosa te lo impedisce? Non includere dati sanitari.
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Passaggi e risultato atteso
+    description: Indica la sezione e i passi per riprodurre il problema.
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: Ambiente
+    description: Versione del progetto, sistema operativo, browser o terminale, zoom e tecnologia assistiva
+      se utilizzata.
+  validations:
+    required: true
+- type: textarea
+  id: workaround
+  attributes:
+    label: Soluzione temporanea ed evidenze
+    description: Indica eventuali alternative e allega solo esempi anonimi.
+  validations:
+    required: false

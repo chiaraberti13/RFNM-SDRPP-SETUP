@@ -14,12 +14,14 @@ This repository covers shell automation that installs/builds librfnm, soapy-rfnm
 
 ### Setup
 ```bash
-git clone https://github.com/chiaraberti13/RFNM-SDRPP-SETUP.git\ncd RFNM-SDRPP-SETUP
+git clone https://github.com/chiaraberti13/RFNM-SDRPP-SETUP.git
+cd RFNM-SDRPP-SETUP
 ```
 
 ### Checks
 ```bash
-bash -n setup_rfnm_sdrpp.sh\nbash -n reset_rfnm_sdrpp.sh
+bash -n setup_rfnm_sdrpp.sh
+bash -n reset_rfnm_sdrpp.sh
 ```
 Changes that use sudo or remove files must be narrowly scoped, documented and reversible. Keep upstream URLs and build options explicit.
 
@@ -41,12 +43,14 @@ Questo repository riguarda shell automation that installs/builds librfnm, soapy-
 
 ### Setup
 ```bash
-git clone https://github.com/chiaraberti13/RFNM-SDRPP-SETUP.git\ncd RFNM-SDRPP-SETUP
+git clone https://github.com/chiaraberti13/RFNM-SDRPP-SETUP.git
+cd RFNM-SDRPP-SETUP
 ```
 
 ### Controlli
 ```bash
-bash -n setup_rfnm_sdrpp.sh\nbash -n reset_rfnm_sdrpp.sh
+bash -n setup_rfnm_sdrpp.sh
+bash -n reset_rfnm_sdrpp.sh
 ```
 Changes that use sudo or remove files must be narrowly scoped, documented and reversible. Keep upstream URLs and build options explicit.
 
@@ -55,3 +59,13 @@ Valida configurazione e input esterni, usa comportamenti fail-safe, conserva pro
 
 ### Pull request
 Descrivi cosa cambia, perché, piattaforme/hardware supportati, test eseguiti, impatto sicurezza/privacy e rollback. Si applica `CODE_OF_CONDUCT.md`.
+
+## Segnalazioni e verifica dei contributi
+
+Installazione e ripristino di SDR++ con RFNM e SoapySDR su Linux.
+
+Usa i [modelli di segnalazione](https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/issues/new/choose) per bug, miglioramenti e barriere di accessibilità. Prima di aprire una nuova segnalazione verifica se ne esiste già una equivalente. Contesto utile: Distribuzione Linux, shell, hardware RFNM, driver e fase di installazione.
+
+Per le modifiche, compila il modello di pull request e indica verifiche eseguite, esito e verifiche non eseguite con il motivo. Mantieni le istruzioni specifiche di questo progetto e la parità delle lingue già disponibili. Non allegare dati di produzione, credenziali o dati personali; usa esempi sintetici.
+
+Consulta [il codice di condotta](CODE_OF_CONDUCT.md), [la policy di sicurezza](SECURITY.md) e [le indicazioni di accessibilità](ACCESSIBILITY.md). Le vulnerabilità seguono esclusivamente il percorso descritto nella policy di sicurezza.

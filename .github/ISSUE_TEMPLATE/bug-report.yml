@@ -1,0 +1,42 @@
+name: Segnalazione di un bug
+description: Descrivi un comportamento errato e come riprodurlo.
+body:
+- type: markdown
+  attributes:
+    value: Segnalazione per RFNM-SDRPP-SETUP. Non inserire dati personali o segreti. Per vulnerabilità
+      consulta https://github.com/chiaraberti13/RFNM-SDRPP-SETUP/security/policy.
+- type: textarea
+  id: problem
+  attributes:
+    label: Problema
+    description: Descrivi il comportamento osservato e il suo impatto.
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Passaggi per riprodurre
+    description: Usa un esempio minimo e dati sintetici.
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Risultato atteso
+    description: Spiega cosa dovrebbe accadere.
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: Versione e ambiente
+    description: Distribuzione Linux, shell, hardware RFNM, driver e fase di installazione.
+  validations:
+    required: true
+- type: textarea
+  id: evidence
+  attributes:
+    label: Log o schermate
+    description: Rimuovi credenziali, dati personali e informazioni riservate.
+  validations:
+    required: false
